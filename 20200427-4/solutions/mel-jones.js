@@ -4,7 +4,7 @@ function reverseEveryOtherWord(str) {
   return str
     .split(' ')
     .map((word, index) =>
-      index % 2 === 1 ? word.split('').reverse().join('') : word
+      index % 2 ? word.split('').reverse().join('') : word
     )
     .join(' ')
 }
