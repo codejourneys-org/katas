@@ -1,4 +1,4 @@
-# JS Kata 5
+# JS Kata 6
 
 - Date: 11/05/2020
 - Tags: fundamental JS 
