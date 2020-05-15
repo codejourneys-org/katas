@@ -5,12 +5,19 @@ const isPangram = (str) => {
     const newAlph = [];
     const newStr = str.replace(/\s+/g, '');
     for(let i of alphabet) {
-      if(newStr.includes(i)) {
+      if(newStr.includes(i) || newStr.includes(i.toUpperCase())) {
         newAlph.push(i);
       }
     }
-    if(newAlph.toString() === alphabet.toString()) {
+    if(newAlph.toString().toLowerCase() === alphabet.toString().toLowerCase()) {
         return true;
-    }
+    } 
     return false;
+};
+
+const isString = (str) => {
+  if(typeof str !== 'string') {
+    return 'Wrong input type.'
+  }
+  return true;
 };
