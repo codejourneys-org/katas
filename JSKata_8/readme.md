@@ -1,4 +1,5 @@
-JS Kata 5
+##JS Kata 5
+
 Date: 04/05/2020
 Tags: fundamentals
 Source: codewars.com
