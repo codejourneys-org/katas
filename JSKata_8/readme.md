@@ -1,7 +1,9 @@
 # JS Kata 8
 
 Date: 04/05/2020
+
 Tags: fundamentals
+
 Source: codewars.com
 
 ## Description
