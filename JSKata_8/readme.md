@@ -1,4 +1,4 @@
-# JS Kata 5
+# JS Kata 8
 
 Date: 04/05/2020
 Tags: fundamentals
